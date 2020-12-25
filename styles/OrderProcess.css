@@ -1,0 +1,28 @@
+.OrderProcess {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: white;
+    width: min-content;
+    height: min-content;
+    padding: 10px;
+    align-self: center;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px gray;
+}
+.OrderProcessItem {
+    background-color: #ffa84f;
+    height: 250px;
+    width: 250px;
+    box-shadow: 4px 4px 4px gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.OrderProcessItemText {
+    font-size: 28px;
+}

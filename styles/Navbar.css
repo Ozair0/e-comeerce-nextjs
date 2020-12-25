@@ -1,0 +1,113 @@
+.nav_items_h {
+    display: none;
+}
+.navbar-nav {
+    margin-left: 130px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #ff1d25 5%, #a0328c 35%, #7040a4 45%, #4359c7 55%, #0082e6 70%);
+}
+
+.d_item {
+
+    padding: .25rem 1.5rem;
+    width: 100%;
+    text-decoration: none !important;
+    /*border-top: 1px solid transparent;*/
+    /*border-bottom: 1px solid transparent;*/
+}
+
+/*.d_item:hover {*/
+/*  border-top: 1px solid #dee2e6;*/
+/*  border-bottom: 1px solid #dee2e6;*/
+/*}*/
+
+.d_item_div {
+    display: flex;
+    flex-direction: column;
+    border: none !important;
+    box-shadow: 0 2px 10px -2px #ccc;
+    /*height: 420px;*/
+    height: 400px;
+}
+
+.d_item_div_2 {
+    display: flex;
+    flex-direction: column;
+    border: none !important;
+    box-shadow: 0 2px 10px -2px #ccc;
+    left: 160px;
+    z-index: 1001;
+    width: 1100px;
+    /*height: 420px;*/
+    height: 400px;
+}
+
+.item_t {
+    color: white !important;
+    font-weight: 500;
+}
+
+.t_show {
+    display: none;
+}
+
+.d_parent {
+    position: relative;
+    background: white;
+    color: black !important;
+    font-weight: 700;
+    margin-top: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-bottom: 15px;
+    z-index: 1001;
+}
+.custom-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.button_nav_border {
+    border-color: rgb(255 255 255) !important;
+}
+@media only screen and (max-width: 992px) {
+    .products_list {
+        display: none;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .menu_item_s {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        background: white;
+        border-radius: 11px;
+    }
+
+    .menu_item_s:hover {
+        background: #b363ff;
+    }
+    .item_t {
+        color: black !important;
+        font-weight: 500;
+    }
+    .item_t:hover {
+        color: white !important;
+    }
+    .nav_items_h {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .t_show {
+        display: unset;
+    }
+}

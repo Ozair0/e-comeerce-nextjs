@@ -1,0 +1,25 @@
+.slider {
+    margin-top: 20px;
+    width: 1200px;
+    height: auto;
+}
+@media only screen and (max-width: 1200px) {
+
+    .slider {
+        width: auto;
+    }
+}
+.Slider_Title {
+    text-shadow: 4px 4px 8px #000000;
+    font-size: 40px;
+}
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -99px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 2px
+}

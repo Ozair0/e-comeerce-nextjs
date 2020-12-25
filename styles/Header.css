@@ -1,0 +1,43 @@
+.logo {
+    font-weight: 500;
+    color: black;
+    font-size: 40px;
+}
+.row_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.nav_links_icon {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.nav_links_icon:link {
+    text-decoration: none !important;
+}
+
+.search_inp_icon:link{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_links_icon {
+        display: none;
+    }
+    .row_flex{
+        flex-direction: column;
+    }
+    .search_inp{
+        margin-bottom: 10px;
+    }
+}
