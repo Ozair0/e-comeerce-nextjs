@@ -1,7 +1,5 @@
+import ProductItem from "../Components/Product/Product_Item";
+
 export default function Home() {
-  return (
-    <div>
-      <p>Product Page</p>
-    </div>
-  );
+  return <ProductItem />;
 }

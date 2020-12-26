@@ -1,0 +1,15 @@
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .product-card {
+    width: 444px;
+    margin: 10px;
+  }
+
+  // @media only screen and (max-width: 992px) {
+  //   :not(:first-child) {
+
+  //   }
+  // }
+}
