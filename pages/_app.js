@@ -5,6 +5,7 @@ import "../styles/Header.css";
 import "../styles/MainPage.css";
 import "../styles/Slider.css";
 import "../styles/OrderProcess.css";
+import "../styles/style.sass";
 import Nav from "../Components/Navbar/Nav";
 import Head from "next/head";
 

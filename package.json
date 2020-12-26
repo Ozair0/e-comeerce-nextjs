@@ -8,9 +8,12 @@
     "start": "NODE_ENV=production nodemon --watch back-end back-end/server.js"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "express": "^4.17.1",
     "next": "10.0.3",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.30.0"
   }
 }
