@@ -7,6 +7,7 @@ import "../styles/Slider.css";
 import "../styles/OrderProcess.css";
 import "../styles/product.scss";
 import "../styles/style.scss";
+import "../styles/Footer.scss";
 import Nav from "../Components/Navbar/Nav";
 import Head from "next/head";
 

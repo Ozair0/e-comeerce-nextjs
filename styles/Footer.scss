@@ -1,0 +1,62 @@
+.footer {
+  height: 300px;
+  background-color: sandybrown;
+  display: flex;
+  justify-content: space-around;
+  div {
+    margin-top: 10px;
+    height: min-content;
+    p {
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .fu {
+    div {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      justify-content: space-between;
+
+      a {
+        height: 45px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: silver;
+        border-radius: 50px;
+        text-decoration: none;
+        color: blue;
+      }
+
+      :not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+  }
+  .fm {
+    div {
+      display: flex;
+      flex-direction: column;
+      a {
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      :not(:first-child) {
+        margin-top: 4px;
+      }
+    }
+  }
+  .fs {
+    div {
+      display: flex;
+      div {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@ import Slider from "../Components/Slider/Slider";
 import OrderProcessList from "../Components/OrderProcess/OrderProcessList";
 import ProductItem from "../Components/Product/Product_Item";
 import ProductList from "../Components/Product/Product_List";
+import Footer from "../Components/footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Slider />
       <OrderProcessList />
       <ProductList />
+      <Footer />
     </div>
   );
 }

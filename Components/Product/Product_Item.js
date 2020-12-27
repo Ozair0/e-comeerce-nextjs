@@ -4,7 +4,7 @@ export default function ProductItem() {
       <div className="product-card p-3 bg-white">
         <i className="fa fa-apple"></i>
         <div className="about-product text-center mt-2">
-          <img src="https://i.imgur.com/3VTaSeb.png" width="300" />
+          <img src="/images/product.jpg" width="300" />
           <div>
             <h4>Believing is seeing</h4>
             <h6 className="mt-0 text-black-50">Apple pro display XDR</h6>
