@@ -8,8 +8,11 @@ import "../styles/OrderProcess.css";
 import "../styles/product.scss";
 import "../styles/style.scss";
 import "../styles/Footer.scss";
+import "../styles/Store.scss";
+import "react-input-range/lib/css/index.css";
 import Nav from "../Components/Navbar/Nav";
 import Head from "next/head";
+import Footer from "../Components/footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -25,6 +28,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Nav />
       <Component {...pageProps} />
+      <Footer />
       <script src="/static/jquery.min.js"></script>
       <script src="/static/bootstrap.min.js"></script>
     </>

@@ -7,7 +7,7 @@ export default function Header() {
         TeachEX
       </a>
       {/*<input type="search" class="form-control col-md-4 col-12 search_inp" placeholder="Search..."/>*/}
-      <div className="input-group col-md-4 col-12 search_inp">
+      <div className="input-group col-md-3 col-12 search_inp">
         <input type="search" className="form-control " placeholder="Search" />
         <div className="input-group-append">
           <a
@@ -22,7 +22,7 @@ export default function Header() {
       <a href="#" className="col-2 nav_links_icon">
         Favorites <i className="fa fa-heart fa-2x ml-1"></i>
       </a>
-      <a href="#" className="col-1 nav_links_icon">
+      <a href="#" className="col-2 nav_links_icon">
         Cart <i className="fa fa-cart-plus fa-2x"></i>
       </a>
     </div>

@@ -7,6 +7,10 @@ export default function ProductList() {
       <ProductItem />
       <ProductItem />
       <ProductItem />
+      <ProductItem />
+      <ProductItem />
+      <ProductItem />
+      <ProductItem />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.store {
+  display: flex;
+}
+
+.middle {
+  margin-right: 35px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-weight: 500;
+    color: black;
+  }
+}
+
+.price_b {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}

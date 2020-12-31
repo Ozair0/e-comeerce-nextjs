@@ -1,3 +1,12 @@
 body {
-    background-color: #e9ebee;
+  background-color: #e9ebee;
+  height: 100vh;
+  margin: 0;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
