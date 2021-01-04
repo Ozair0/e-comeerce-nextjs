@@ -1,6 +1,6 @@
 export default function ProductItem() {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center product_it">
       <div className="product-card p-3 bg-white">
         <i className="fa fa-apple"></i>
         <div className="about-product text-center mt-2">

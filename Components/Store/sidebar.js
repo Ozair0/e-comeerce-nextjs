@@ -42,7 +42,7 @@ export default function Sidebar() {
     setRightValue();
   }, []);
   return (
-    <div className="col-4">
+    <div className="col-4 sidebar_c">
       <p className="price_b">Price Between</p>
 
       <div className="middle">

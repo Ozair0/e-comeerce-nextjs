@@ -1,17 +1,14 @@
+import Categore from "../Components/Store/categorie";
+import Products from "../Components/Store/products";
 import Sidebar from "../Components/Store/sidebar";
 export default function Home() {
   return (
     <div className="store">
-      <Sidebar />
-      <div className="col-8">
-        <div>
-          <p>Search Bar with Categorize By</p>
-        </div>
-        <div>
-          <p>Products</p>
-          <p>Pagination</p>
-        </div>
+      <div className="sid_cat">
+        <Sidebar />
+        <Categore />
       </div>
+      <Products />
     </div>
   );
 }
