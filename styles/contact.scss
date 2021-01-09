@@ -1,0 +1,33 @@
+.contact {
+  height: 100%;
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(68, 68, 202);
+    text-shadow: 3px 3px 4px gray;
+  }
+  .main_c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    .acc_em {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      label {
+        width: 100%;
+      }
+    }
+    .masg {
+      margin-top: 20px;
+      width: 100%;
+    }
+    button {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}

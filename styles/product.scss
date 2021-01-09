@@ -2,9 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  .product_it {
+    margin: 10px;
+    transition: 0.6s;
+    &:hover {
+      box-shadow: 3px 3px 6px 1px gray;
+    }
+  }
   .product-card {
     width: 444px;
-    margin: 10px;
   }
 
   // @media only screen and (max-width: 992px) {

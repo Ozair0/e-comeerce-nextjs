@@ -32,10 +32,11 @@
     }
     .products {
       display: flex;
-      justify-content: space-around;
       flex-wrap: wrap;
-      :last-child {
+      justify-content: space-around;
+      div {
         margin-top: 10px;
+        margin-left: 10px;
       }
     }
     .pagination {
