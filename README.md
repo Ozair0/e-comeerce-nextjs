@@ -1,6 +1,6 @@
 # E-Commerce Website built using NextJS, express & MongoDB
 
-## Pending
+## Status
 
 - [x] Home Page
 - [x] Store Page
