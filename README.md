@@ -1,30 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce Website built using NextJS, express & MongoDB
 
-## Getting Started
+## Pending
 
-First, run the development server:
+- [x] Home Page
+- [x] Store Page
+- [x] Product Page
+- [x] Mobile View
+- [x] Contact Page
+- [x] About Page
+- [x] Privacy Page
+- [ ] Cart
+- [ ] Favorite
+- [ ] Account
+- [ ] ...
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Pages
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Home
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![Home Page](Images/home.jpeg "Home Page")
 
-## Learn More
+### Store
 
-To learn more about Next.js, take a look at the following resources:
+![Home Page](Images/store.jpeg "Store Page")
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Product Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Home Page](Images/product.jpeg "Product Page")
 
-## Deploy on Vercel
+### Mobile View
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Home Page](Images/mobileview.jpeg "Mobile View")
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contact
+
+![Home Page](Images/contact.jpeg "Contact Page")
+
+### About US
+
+![Home Page](Images/aboutus.jpeg "About Page")
+
+### Privacy
+
+![Home Page](Images/privacy.jpeg "Privacy Page")

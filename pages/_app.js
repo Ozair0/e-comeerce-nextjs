@@ -12,7 +12,7 @@ import "../styles/Store.scss";
 import "../styles/contact.scss";
 import "../styles/about.scss";
 import "../styles/privacy.scss";
-import "react-input-range/lib/css/index.css";
+import "../styles/product_page.scss";
 import Nav from "../Components/Navbar/Nav";
 import Head from "next/head";
 import Footer from "../Components/footer";
