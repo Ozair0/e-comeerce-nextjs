@@ -31,7 +31,7 @@
    npm install
    ```
 
-3. Run in devlopmennt
+3. Run in development
 
    ```sh
    npm run dev
