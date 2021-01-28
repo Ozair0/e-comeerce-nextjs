@@ -1,4 +1,4 @@
-# E-Commerce Website built using NextJS, express & MongoDB
+# E-Commerce Website built using NextJS, Express & MongoDB
 
 ## Status
 
