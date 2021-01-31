@@ -16,9 +16,15 @@ export default function product() {
               <img src="/images/product.jpg" width="280" />
             </div>
             <div className="p_main_images">
-              <img src="/images/product.jpg" width="80" />
-              <img src="/images/product.jpg" width="80" />
-              <img src="/images/product.jpg" width="80" />
+              <a href="#">
+                <img src="/images/product.jpg" width="80" />
+              </a>
+              <a href="#">
+                <img src="/images/product.jpg" width="80" />
+              </a>
+              <a href="#">
+                <img src="/images/product.jpg" width="80" />
+              </a>
             </div>
           </div>
         </div>

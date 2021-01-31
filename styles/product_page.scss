@@ -21,7 +21,7 @@
           margin-bottom: 20px;
         }
         .p_main_images {
-          img:not(:first-child) {
+          a:not(:first-child) {
             margin-left: 10px;
           }
         }
