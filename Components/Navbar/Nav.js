@@ -96,6 +96,8 @@ class Nav extends Component {
               <Nav_Items Name="Contact" href="/contact" />
               <Nav_Items Name="About" href="/about" />
               <Nav_Items Name="Privacy" href="/privacy" />
+              <Nav_Items Name="Register" href="/register" />
+              <Nav_Items Name="Login" href="/login" />
               <Nav_Items Name="My Account" OC="t_show" href="/account" />
               <Nav_Items Name="Favorites" OC="t_show" href="/favorites" />
               <Nav_Items Name="Cart" OC="t_show" href="/cart" />

@@ -9,11 +9,11 @@
 - [x] Contact Page
 - [x] About Page
 - [x] Privacy Page
+- [x] Login Page
+- [x] Register Page
 - [ ] Cart Page
 - [ ] Checkout Page
 - [ ] Favorite Page
-- [ ] Login Page
-- [ ] Register Page
 - [ ] Account Page
 - [ ] ...
 
@@ -80,3 +80,11 @@
 ### Privacy
 
 ![Home Page](Images/privacy.jpeg "Privacy Page")
+
+### Login
+
+![Home Page](Images/login.jpeg "Login Page")
+
+### Register
+
+![Home Page](Images/register.jpeg "Register Page")
