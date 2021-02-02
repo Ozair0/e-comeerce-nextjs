@@ -15,6 +15,7 @@ import "../styles/privacy.scss";
 import "../styles/product_page.scss";
 import "../styles/register.scss";
 import "../styles/login.scss";
+import "../styles/cart.scss";
 import Nav from "../Components/Navbar/Nav";
 import Head from "next/head";
 import Footer from "../Components/footer";

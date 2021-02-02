@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Header() {
   return (
     <div className="row_flex col">
@@ -22,9 +22,11 @@ export default function Header() {
       <a href="#" className="col-2 nav_links_icon">
         Favorites <i className="fa fa-heart fa-2x ml-1"></i>
       </a>
-      <a href="#" className="col-2 nav_links_icon">
-        Cart <i className="fa fa-cart-plus fa-2x"></i>
-      </a>
+      <Link href="/cart">
+        <a className="col-2 nav_links_icon">
+          Cart <i className="fa fa-cart-plus fa-2x"></i>
+        </a>
+      </Link>
     </div>
   );
 }
