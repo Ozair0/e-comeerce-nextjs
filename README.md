@@ -11,7 +11,7 @@
 - [x] Privacy Page
 - [x] Login Page
 - [x] Register Page
-- [ ] Cart Page
+- [x] Cart Page
 - [ ] Checkout Page
 - [ ] Favorite Page
 - [ ] Account Page
@@ -88,3 +88,7 @@
 ### Register
 
 ![Home Page](Images/register.jpeg "Register Page")
+
+### Cart
+
+![Home Page](Images/cart.jpeg "Cart Page")
